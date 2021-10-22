@@ -59,9 +59,7 @@ ul{
     list-style-type: none;
     font-style: italic;
 }
-ul:hover{
-    transform: scale(1.2);
-}
+
 h1{
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 60px;
@@ -88,8 +86,19 @@ h3{
 p{
     padding:10px;
     text-align: justify;
+    text-indent: 20px;
+    word-spacing: 20px;
 }
 p.kozep{
     text-align: center;
     font-weight: bold;
+}
+button{
+    font-size:20px;
+    background-color: purple;
+    color: white;
+}
+.lista{
+    list-style-image:url(lista.PNG);
+    margin-left: 15px;
 }
