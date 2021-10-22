@@ -1,0 +1,95 @@
+html{
+    background-color:rgba(255,179,222,.7);
+    color: purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+    
+}
+
+.nevjegy{
+    width: 1900px;
+    height: 900px;
+}
+#hatterkep{
+    width: 1250px;
+    height: 900px;
+    float: left;
+    background-image:url(Media/hatter.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+    box-shadow: 20px 20px 20px black;
+    border:8px purple solid;
+}
+    
+.kapcsolat{
+    width: 550px;
+    height: 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: right;
+    vertical-align: top;
+    box-shadow: 20px 20px 20px black;
+    border:8px purple solid;
+}
+.szöveg{
+    width: 550px;
+    height: 570px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: right;
+    vertical-align: top;
+    box-shadow: 20px 20px 20px black;
+    border:8px purple solid;
+}
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 60%;
+    border: 8px purple solid;
+    margin-top: 20px;
+    margin-left: 20px;
+    filter: grayscale(20%);
+}
+img:hover{
+    transform: scale(1.3);
+    transition: all 0.3s ease-in-out;
+}
+ul{
+    list-style-type: none;
+    font-style: italic;
+}
+ul:hover{
+    transform: scale(1.2);
+}
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    letter-spacing: 5px;
+    text-align: center;
+    background-color:rgba(255,179,222,.7);
+    border-radius: 90%;
+}
+h1:hover{
+    transform: scale(1.3);
+}
+h3:hover{
+    transform: scale(1.3);
+}
+h3{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    letter-spacing: 5px;
+    text-align: center;
+    font-style: italic;
+    background-color:rgba(255,179,222,.7);
+    border-radius: 90%;
+}
+p{
+    padding:10px;
+    text-align: justify;
+}
+p.kozep{
+    text-align: center;
+    font-weight: bold;
+}
